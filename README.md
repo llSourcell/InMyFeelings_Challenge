@@ -4,6 +4,9 @@ This repository has been forked from [here](https://github.com/llSourcell/InMyFe
 webM pose detection skelton video can be downloaded.</br>
 It uses captureStream method and MediaStream Recording API to capture canvas and record media.</br>
 
+## Demo
+![Alt Text](https://github.com/neha01/danceSkeleton/blob/master/skeletal.gif)
+
 ## Steps
 1. Clone the repository </br>
 2.Place the video for which you want to create dance Skeleton in same directory</br>
