@@ -10,10 +10,10 @@ It uses captureStream method and MediaStream Recording API to capture canvas and
 ## Steps
 [Youtube video Tutorial](https://youtu.be/nGal-zhsyEc)
 1. Clone the repository </br>
-2.Place the video for which you want to create dance Skeleton in same directory</br>
+2. Place the video for which you want to create dance Skeleton in same directory</br>
 3. Navigate to that folder on commandline and run "python -m http.server 1337" to create local server on port 1337 on your machine</br>
-4.Navigate to "localhost:1337/index.html"  on browser. </br>
-5.Play the video to start the recording and pause the video to stop the recording.
+4. Navigate to "localhost:1337/index.html"  on browser. </br>
+5. Play the video to start the recording and pause the video to stop the recording.
 Video will start downloading on pausing the video.
 
 
