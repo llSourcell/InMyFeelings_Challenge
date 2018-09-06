@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Dance Skeleton
 
 This repository has been forked from [here](https://github.com/llSourcell/InMyFeelings_Challenge).It has been modified to create pose estimation skeleton from video stored on the desktop.</br>
@@ -27,7 +26,6 @@ It uses captureStream method and MediaStream Recording API to capture canvas and
 2.Place the video for which you want to create dance Skeleton in same directory
 3. Navigate to that folder on commandline and run "python -m http.server 1337" to create local server on port 1337 on your machine
 4.Play the video to start the recording and pause the video to stop the recording.
->>>>>>> enhancement
 Video will start downloading on pausing the video.
 
 
