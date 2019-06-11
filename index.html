@@ -4,6 +4,9 @@
 <head>
     <title>PoseNet - Camera Feed Demo</title>
     <style>
+
+
+
     .footer {
         position: fixed;
         left: 0;
@@ -23,6 +26,7 @@
         display: none;
       }
     }
+
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -33,15 +37,20 @@
     </div>
 
     <div id='main' style='display:none'>
-        <video id="video" playsinline style=" -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        display: none;
+        <video id="video" src="test.mp4" controls  autoplay="autoplay"  crossorigin="anonymous"playsinline style=" -moz-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+
         ">
         </video>
         <canvas id="output" />
     </div>
+
+
+
+
+
     <div class="footer">
         <div class="footer-text">
             <p>
@@ -58,10 +67,10 @@
     <script src="https://cdn.jsdelivr.net/npm/dat.gui@0.7.2/build/dat.gui.js"></script>
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow-models/posenet"></script>
-    
+    <script src ="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="demo_util.js"></script>
     <script src="stats.min.js "></script>
-    <script src="camera.js"></script>
+    <script src="helper.js"></script>
 </body>
 
 </html>

@@ -18,6 +18,8 @@
 // import * as posenet from '../src';
 
 const color = 'aqua';
+const color1='red'
+const color2='red'
 const lineWidth = 2;
 
 function toTuple({ y, x }) {
@@ -63,7 +65,7 @@ function drawKeypoints(keypoints, minConfidence, ctx, scale = 1) {
     const { y, x } = keypoint.position;
     ctx.beginPath();
     ctx.arc(x * scale, y * scale, 3, 0, 2 * Math.PI);
-    ctx.fillStyle = color;
+    ctx.fillStyle = color2;
     ctx.fill();
   }
 }
